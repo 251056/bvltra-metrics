@@ -1,3 +1,7 @@
+/* * Copyright (c) 2026 BVLTRA. All rights reserved.
+ * Licensed under the Educational and Demonstrative Use License, Version 1.0.
+ * See LICENSE file in the project root for full terms and restrictions.
+ */
 .App {
   text-align: center;
 }
@@ -35,4 +39,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  /* Reminder: From Figma prototype, explore more fonts fonts before settling on DM Sans, then DELETE COMMENTTTT */
+  font-family: 'DM Sans', sans-serif !important;
 }

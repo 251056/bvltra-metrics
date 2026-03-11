@@ -1,0 +1,36 @@
+.hero-engine {
+  height: 100vh; 
+  width: 100%;
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-top: 120px; 
+}
+
+/* To do: Learn more about clamp() function: https://developer.mozilla.org/en-US/docs/Web/CSS/clamp */
+.blend-logo {
+  /* min-width | ideal width | max-width */
+  width: clamp(200px, 80%, 600px); 
+  mix-blend-mode: color-dodge;
+}
+
+/* This part only activates when the screen shrinks below 768px (standard tablet/mobile breakpoint) */
+@media (max-width: 768px) {
+  .hero-engine {
+    /* Make space for nav bar */
+    padding-top: 140px; 
+  }
+  
+  .hero-engine .lead {
+    /* Shrinks the subheadline slightly so it fits the screen better */
+    font-size: 1.1rem !important; 
+  }
+}
+
+.hero-description {
+  /* min-size | ideal | max-size */
+  font-size: clamp(0.85rem, 1.2vw, 1.05rem) !important; 
+  max-width: 35ch; 
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.5; 
+}

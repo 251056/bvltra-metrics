@@ -1,3 +1,40 @@
+# BVLTRA Metrics
+
+This project serves as a technical demonstration of my work in **Creative Technologies** at the **Open Window Institute**. It is designed to showcase specific mechanisms, underlying structures, and my approach to problem-solving within Interactive Development.
+
+---
+
+## 📜 License & Usage
+
+This project is protected by a **Custom Educational and Demonstrative Use License**. 
+
+### What this means:
+* **Academic Use**: You are encouraged to study the logic and code for learning or personal research.
+* **Demonstration**: This work exists to show my technical proficiency and design thinking.
+* **No Commercial Use**: You may **not** use, sell, or include this code in any for-profit software or commercial business environments.
+* **No Redistribution**: You may not re-upload, sublicense, or distribute modified versions of this software without my express written permission.
+
+> [!IMPORTANT]
+> This software is provided **"as is"**. While it demonstrates my coding capabilities, I am not liable for any issues that occur should you choose to run it in your own environment.
+
+---
+
+## 📬 Contact
+
+If you would like to discuss the mechanisms of this project, inquire about a commercial license, or talk about potential collaborations, please get in touch:
+
+* **Name**: BVLTRA (Tshedza Mosehane)
+* **Portfolio**: https://bvltra.com [BUSY]
+* **LinkedIn**: https://www.linkedin.com/in/tshedza-mosehane-0302092a9/
+* **Email**: hello@bvltra.com
+
+---
+
+## 🛠️ Credits & Notices
+
+This project utilizes several open-source tools and frameworks. Please see the [NOTICE](./NOTICE) file in this repository for a full list of third-party attributions and their respective licenses.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
