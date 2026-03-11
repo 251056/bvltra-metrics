@@ -3,15 +3,25 @@
  * See LICENSE file in the project root for full terms and restrictions.
  */
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavigationBar from './navbar';
-import Hero from './hero';
+import LandingPage from './LandingPage';
+import ComparisonPage from './ComparisonPage';
+import TimelinePage from './TimelinePage';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
+      {/* Note about Routing: This is so the Navbar appears on all routes */}
       <NavigationBar />
-      <Hero />
-    </div>
+      
+      {/* Understanding of Routing: The Routes engine watches the URL and renders the matching component */}
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/compare" element={<ComparisonPage />} />
+        <Route path="/timeline" element={<TimelinePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

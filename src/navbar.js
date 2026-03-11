@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -30,9 +31,9 @@ function NavigationBar() {
             style={{ maxHeight: '200px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" style={{ color: 'white', paddingLeft: '20px', paddingRight: '20px' }}>Home</Nav.Link>
-            <Nav.Link href="#action2" style={{ color: 'white', paddingLeft: '20px', paddingRight: '20px' }}>About</Nav.Link>
-            <Nav.Link href="#action3" style={{ color: 'white', paddingLeft: '20px', paddingRight: '20px' }}>Projects</Nav.Link>
+            <Nav.Link as={Link} to="/" style={{ color: 'white', paddingLeft: '20px', paddingRight: '20px' }}>Home</Nav.Link>
+            <Nav.Link as={Link} to="/compare" style={{ color: 'white', paddingLeft: '20px', paddingRight: '20px' }}>Compare</Nav.Link>
+            <Nav.Link as={Link} to="/timeline" style={{ color: 'white', paddingLeft: '20px', paddingRight: '20px' }}>Timeline</Nav.Link>
           </Nav>
           
           <Form className="d-flex gap-2 align-items-center">
