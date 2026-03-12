@@ -1,7 +1,3 @@
-/* * Copyright (c) 2026 BVLTRA. All rights reserved.
- * Licensed under the Educational and Demonstrative Use License, Version 1.0.
- * See LICENSE file in the project root for full terms and restrictions.
- */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';

@@ -34,7 +34,7 @@ function Hero() {
                             A refined nutritional index dedicated to the deconstruction of food into precise, quantitative data. {/* By stripping away marketing labels to reveal the underlying chemical and caloric structures, it provides a high-fidelity mirror for those seeking radical clarity in their consumption. It is less about dietary advice and more about the raw anatomy of what we ingest.*/}
                         </p>
                         <button className="btn btn-light rounded-pill px-4 py-2 mt-4 fw-bold shadow-sm">
-                            Explore the Data
+                            Explore the Data {/* PLACE HOLDER, DECIDE ON FUNTIONALITY */}
                         </button>
                     </Col>
                 </Row>
